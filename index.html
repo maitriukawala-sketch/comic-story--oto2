@@ -115,6 +115,52 @@
     font-size:13px;
     color:var(--ink-soft);
   }
+  .wp-buy-button{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    min-width:310px;
+    max-width:100%;
+    padding:8px 18px;
+    border-radius:18px;
+    text-decoration:none;
+    background:linear-gradient(135deg, #d63d73 0%, #9a2147 100%);
+    box-shadow:0 12px 24px -16px rgba(122,20,55,0.9);
+    transition:transform 0.2s ease, box-shadow 0.2s ease;
+    margin:0 auto;
+  }
+  .wp-buy-button:hover{
+    transform:translateY(-2px);
+    box-shadow:0 16px 28px -18px rgba(122,20,55,0.9);
+  }
+  .wp-buy-button img{
+    display:block;
+    max-width:100%;
+    width:100%;
+    height:auto;
+    border:0;
+  }
+  .wp-buy-button .wp-buy-fallback{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    width:100%;
+    font-size:20px;
+    font-weight:700;
+    letter-spacing:0.02em;
+    color:#fff;
+    font-family:'Sora',sans-serif;
+  }
+  .wp-buy-button .wp-buy-fallback::before{
+    content:"";
+    width:18px;
+    height:18px;
+    border-radius:5px;
+    background:rgba(255,255,255,0.18);
+    box-shadow:inset 0 0 0 2px rgba(255,255,255,0.55);
+    display:inline-block;
+  }
 
   /* ---------- panel strip (signature motif) ---------- */
   .panel-strip{
@@ -561,10 +607,10 @@
     <span class="eyebrow">Romance Comic Story Collection</span>
     <h1>40 more love stories,<br><em>none of them repeats.</em></h1>
     <p class="sub">Volume 2 hands you 40 brand-new cinematic romance stories, 320 ready-to-paste AI comic prompts, and 8 fully structured pages per story — so the blank page never slows you down again.</p>
-    <a href="https://warriorplus.com/o2/buy/pswgyg/b65rr8/hqbs9t" target="_top" rel="noopener noreferrer">
-      <img src="https://warriorplus.com/o2/btn/pn100011001/pswgyg/b65rr8/hqbs9t" alt="Volume Comic Book Creator" border="0" style="display:block;margin:0 auto;max-width:320px;width:100%;height:auto;">
+    <a href="https://warriorplus.com/o2/buy/pswgyg/b65rr8/hqbs9t" class="wp-buy-button" target="_top" rel="noopener noreferrer" aria-label="Volume Comic Book Creator buy button">
+      <img src="https://warriorplus.com/o2/btn/pn100011001/pswgyg/b65rr8/hqbs9t" alt="Volume Comic Book Creator" border="0" onerror="this.style.display='none';this.parentNode.innerHTML='<span class=\'wp-buy-fallback\'>Volume Comic Book Creator</span>'">
     </a>
-    <span class="cta-note">Instant download · One payment · 30-day guarantee</span>
+    <span class="cta-note">Instant download · One payment · 7-day guarantee</span>
 
     <div class="panel-strip" aria-hidden="true">
       <div class="cell">
@@ -909,7 +955,7 @@
       </details>
       <details>
         <summary>Is there a guarantee?</summary>
-        <p>Yes — a full 30-day money-back guarantee, detailed below.</p>
+        <p>Yes — a full 7-day money-back guarantee, detailed below.</p>
       </details>
       <details>
         <summary>How fast can I start using it?</summary>
@@ -923,9 +969,9 @@
 <section>
   <div class="wrap">
     <div class="guarantee">
-      <div class="seal">30</div>
-      <h3>30-Day Money-Back Guarantee</h3>
-      <p>Download it, paste a few prompts into your AI model of choice, and see the quality for yourself. If Volume 2 doesn't meet your expectations, reach out within 30 days for a full refund — no hassle, no hard feelings.</p>
+      <div class="seal">7</div>
+      <h3>7-Day Money-Back Guarantee</h3>
+      <p>Download it, paste a few prompts into your AI model of choice, and see the quality for yourself. If Volume 2 doesn't meet your expectations, reach out within 7 days for a full refund — no hassle, no hard feelings.</p>
     </div>
   </div>
 </section>
@@ -939,10 +985,10 @@
     </div>
     <div class="price-was">Individually sourced value: $2,000–$6,000</div>
     <div class="price-tag">$11</div>
-    <a href="https://warriorplus.com/o2/buy/pswgyg/b65rr8/hqbs9t" target="_top" rel="noopener noreferrer">
-      <img src="https://warriorplus.com/o2/btn/pn100011001/pswgyg/b65rr8/hqbs9t" alt="Volume Comic Book Creator" border="0" style="display:block;margin:0 auto;max-width:320px;width:100%;height:auto;">
+    <a href="https://warriorplus.com/o2/buy/pswgyg/b65rr8/hqbs9t" class="wp-buy-button" target="_top" rel="noopener noreferrer" aria-label="Volume Comic Book Creator buy button">
+      <img src="https://warriorplus.com/o2/btn/pn100011001/pswgyg/b65rr8/hqbs9t" alt="Volume Comic Book Creator" border="0" onerror="this.style.display='none';this.parentNode.innerHTML='<span class=\'wp-buy-fallback\'>Volume Comic Book Creator</span>'">
     </a>
-    <div class="cta-note">Instant digital download · 30-day money-back guarantee</div>
+    <div class="cta-note">Instant digital download · 7-day money-back guarantee</div>
   </div>
 </section>
 
@@ -951,10 +997,10 @@
   <div class="wrap">
     <h2>Don't let the next story get told by someone else first.</h2>
     <p>Creators don't lose momentum because they lack tools — they lose it when the ideas run out. Volume 2 makes sure that never happens to you.</p>
-    <a href="https://warriorplus.com/o2/buy/pswgyg/b65rr8/hqbs9t" target="_top" rel="noopener noreferrer">
-      <img src="https://warriorplus.com/o2/btn/pn100011001/pswgyg/b65rr8/hqbs9t" alt="Volume Comic Book Creator" border="0" style="display:block;margin:0 auto;max-width:320px;width:100%;height:auto;">
+    <a href="https://warriorplus.com/o2/buy/pswgyg/b65rr8/hqbs9t" class="wp-buy-button" target="_top" rel="noopener noreferrer" aria-label="Volume Comic Book Creator buy button">
+      <img src="https://warriorplus.com/o2/btn/pn100011001/pswgyg/b65rr8/hqbs9t" alt="Volume Comic Book Creator" border="0" onerror="this.style.display='none';this.parentNode.innerHTML='<span class=\'wp-buy-fallback\'>Volume Comic Book Creator</span>'">
     </a>
-    <div class="cta-note">Instant download · One-time payment · 30-day guarantee</div>
+    <div class="cta-note">Instant download · One-time payment · 7-day guarantee</div>
   </div>
 </section>
 
