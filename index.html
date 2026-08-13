@@ -116,32 +116,50 @@
     color:var(--ink-soft);
   }
   .buy-button{
-    display:flex;
+    display:inline-flex;
     align-items:center;
     justify-content:center;
-    gap:18px;
+    gap:12px;
     width:max-content;
     max-width:100%;
     margin:0 auto;
-    padding:18px 28px;
-    border-radius:16px;
+    padding:14px 22px 14px 18px;
+    border-radius:12px;
+    border:1px solid rgba(36,26,29,0.18);
     text-decoration:none;
-    background:linear-gradient(135deg, #cf3d72 0%, #8f214d 100%);
-    box-shadow:0 12px 22px -14px rgba(122,20,55,0.9);
-    color:#fff;
+    background:rgba(255,255,255,0.75);
+    color:var(--ink);
     font-family:'Sora',sans-serif;
-    font-weight:800;
-    font-size:24px;
+    font-weight:700;
+    font-size:18px;
+    line-height:1.2;
     letter-spacing:-0.02em;
-    transition:transform .18s ease, box-shadow .18s ease;
+    transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+    box-shadow:0 8px 18px -14px rgba(36,26,29,0.7);
   }
   .buy-button:hover{
     transform:translateY(-2px);
-    box-shadow:0 16px 28px -18px rgba(122,20,55,0.9);
+    border-color:rgba(36,26,29,0.28);
+    box-shadow:0 10px 20px -14px rgba(36,26,29,0.8);
+  }
+  .buy-button .icon{
+    width:22px;
+    height:22px;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:6px;
+    background:linear-gradient(135deg,#d7efdc,#93cf9d);
+    color:#2d5c30;
+    font-size:12px;
+    font-weight:900;
+    line-height:1;
+    box-shadow:inset 0 0 0 1px rgba(45,92,48,0.18);
   }
   .buy-button .buy-price{
-    font-size:28px;
-    font-weight:900;
+    color:var(--rose);
+    font-size:18px;
+    font-weight:800;
     letter-spacing:-0.03em;
   }
 
@@ -970,7 +988,8 @@
     <div class="price-was">Individually sourced value: $2,000–$6,000</div>
     <div class="price-tag">$11</div>
     <a href="https://warriorplus.com/o2/buy/pswgyg/b65rr8/hqbs9t" class="buy-button" target="_top" rel="noopener noreferrer" aria-label="Buy Volume 2 for $11">
-      <span>Get Volume 2</span>
+      <span class="icon">▣</span>
+      <span>Buy Volume 2</span>
       <span class="buy-price">$11</span>
     </a>
     <div class="cta-note">Instant digital download · 7-day money-back guarantee</div>
@@ -983,7 +1002,8 @@
     <h2>Don't let the next story get told by someone else first.</h2>
     <p>Creators don't lose momentum because they lack tools — they lose it when the ideas run out. Volume 2 makes sure that never happens to you.</p>
     <a href="https://warriorplus.com/o2/buy/pswgyg/b65rr8/hqbs9t" class="buy-button" target="_top" rel="noopener noreferrer" aria-label="Buy Volume 2 for $11">
-      <span>Get Volume 2</span>
+      <span class="icon">▣</span>
+      <span>Buy Volume 2</span>
       <span class="buy-price">$11</span>
     </a>
     <div class="cta-note">Instant download · One-time payment · 7-day guarantee</div>
